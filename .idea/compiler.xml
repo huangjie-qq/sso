@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="attestation" />
+        <module name="client2" />
         <module name="client1" />
         <module name="SSO" />
-        <module name="attestation" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="attestation" options="-parameters" />
       <module name="client1" options="-parameters" />
+      <module name="client2" options="-parameters" />
     </option>
   </component>
 </project>

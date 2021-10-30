@@ -11,6 +11,7 @@
     <modules>
         <module>attestation</module>
         <module>client1</module>
+        <module>client2</module>
     </modules>
 
     <properties>
