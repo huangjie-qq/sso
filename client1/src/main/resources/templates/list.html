@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>SSO-服务一 认证成功</h1>
+<h1>登录信息如下</h1>
+<h1 th:text="${session.loginUser==null?'账号：未登录':'账号：'+session.loginUser.userName}"></h1>
+<h1 th:text="${session.loginUser==null?'密码：未登录':'密码：'+session.loginUser.password}"></h1>
+</body>
+</html>

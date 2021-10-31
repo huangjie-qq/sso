@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>SSO-认证中心</h1>
+<form method="post" action="doLogin">
+    账号：<input name="userName" type="text"><br>
+    密码：<input name="password" type="text"><br>
+    <input type="hidden" name="url" th:value="${url}">
+    登陆 <input type="submit">
+</form>
+</body>
+</html>
